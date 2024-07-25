@@ -1,0 +1,92 @@
+.wrapper {
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.cardBackground {
+    height: 700px;
+    width: 1200px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding: 2%;
+    background-color: #d9d9d9;
+}
+
+.cardLeftSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardLeftSideTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+.cardLeftSideBottom{
+    margin-top: 60px;
+}
+.photoWrapper{
+    width: fit-content;
+}
+
+.photo{
+    width: 284px;
+    height: 458px;
+}
+
+.phoneDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap:30px;
+
+}
+
+.model,.price{
+    font-size: 44px;
+    line-height: 100%;
+}
+
+
+.characteristic{
+    font-size: 20px;
+    line-height: 100%;
+    & :not(:last-child){
+        margin-right: 20px;
+    }
+}
+
+.cardLeftSideBottom{
+    width: 700px;
+    height: 200px;
+}
+
+.button{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 65px;
+    background-color: #b57d7d;
+    font-size: 24px;
+    line-height: 100%;
+    color:#fff;
+    border: none;
+    border-radius: 15px;
+    
+}
+
+.raiting{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
